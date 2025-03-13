@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "* 1-2 * * *" # 日本時間の午前10時～11時の間で、1時間ごと
+    - cron: "0 3-5 * * *" # 日本時間の午後12時～14時の間で、1時間ごと
   workflow_dispatch:
 
 env:
