@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # 30分ごとに実行
+    - cron: "* * 1 * *" # 毎月１日実行
   workflow_dispatch:
 
 env:
